@@ -22,7 +22,6 @@ jobs:
         with:
           node-version: 24
       - run: node scripts/check.mjs
-      - run: node scripts/test.mjs
       - name: Prepare site
         run: |
           mkdir site

@@ -29,9 +29,3 @@ The four original curated schemas were copied read-only from the separate ZETA m
 ## Files
 
 `index.html` loads `styles.css`, four local content scripts in dependency order, and `app.js`. No third-party executable scripts, API keys, npm installation or generated build is needed. `scripts/check.mjs` verifies source syntax and catalogue invariants.
-
-## Expanded reading and preparation guides
-
-The website also loads `assets/data/content-enrichment.js` and `content-ui.js`. These add 30 direct primary references, field canvases and concept notes, practical learning ladders, detailed course learning contracts, curated reference collections and 24 career preparation profiles. Knowledge prompts explain why a source is useful and suggest an artifact to make from it. Career comparison is temporary UI state; skill matching uses only the text you declare in Profile. See `CONTENT-SOURCES.md` and the machine-readable verification report for source-check scope and limitations.
-
-Run `node scripts/test.mjs` to check the actual loaded script order, domain/course views, new reference coverage and deduplication, local progress calculations, escaping, and every career preparation dialog.
